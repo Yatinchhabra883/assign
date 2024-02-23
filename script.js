@@ -1,0 +1,111 @@
+const imageData = [
+  {
+    image:
+      "https://media.istockphoto.com/id/1352606416/photo/young-woman-working-at-home-stock-photo.jpg?s=612x612&w=0&k=20&c=uKfBCoTeP54nA8KOzXDLIyoU31nZ4a4UreFE4p_x_3A=",
+  },
+  {
+    image:
+      "https://media.istockphoto.com/id/1223342919/photo/latin-man-using-smartphone-at-home.jpg?s=612x612&w=0&k=20&c=NM2CFI9F9YFQWjy7IgOEHgkqE_cMvBJwALHe9qmnvtU=",
+  },
+  {
+    image:
+      "https://media.istockphoto.com/id/1321151053/photo/scam-key.webp?b=1&s=612x612&w=0&k=20&c=1634YtPAzkAKwtiLMOQjikc4I7m65Yi_LoiwUki1J54=",
+  },
+  {
+    image:
+      "https://media.istockphoto.com/id/1280547073/photo/business-video-call-meeting-on-laptop-at-home.webp?b=1&s=612x612&w=0&k=20&c=vrN2_S00ZvXsBfa5uRlZ6k66i-GkgIuQt8VbncnKZgs=",
+  },
+  {
+    image:
+      "https://media.istockphoto.com/id/1028471432/photo/check-out-my-high-score-stock-image.jpg?s=612x612&w=0&k=20&c=88IUz9yYNZeXYlRjHa02u2VIYxbVMEF8stQ62vqtJuU=",
+  },
+  {
+    image:
+      "https://media.istockphoto.com/id/1334591614/photo/man-using-digital-tablet-online-connect-to-internet-banking-currency-exchange-online-shopping.webp?b=1&s=612x612&w=0&k=20&c=iNFujS9qtuZ7E9omVPnZUtVMW6hF5SI1kJ3d5TvUoeE=",
+  },
+  {
+    image:
+      "https://media.istockphoto.com/id/1369588714/photo/smiling-arab-man-in-glasses-using-laptop-and-writing.webp?b=1&s=612x612&w=0&k=20&c=YU-Ou30yTYDvSay16HQBYw0ZJYG6m6reci7gohr2f3I=",
+  },
+  {
+    image:
+      "https://media.istockphoto.com/id/1463013729/photo/online-registration-form-for-modish-form-filling.webp?b=1&s=612x612&w=0&k=20&c=jMEIqTpmOfuwX1G60ifO8LrMtgFLEPPznPz0jLiAW5s=",
+  },
+  {
+    image:
+      "https://media.istockphoto.com/id/1345414470/photo/young-girl-using-phone-stock-photo.jpg?s=612x612&w=0&k=20&c=YiXul1B3hzhb7jBGybx5xSDzT848theKibLRmMA0fUY=",
+  },
+  {
+    image:
+      "https://media.istockphoto.com/id/665418126/photo/how-will-you-keep-him-out-of-your-data.webp?b=1&s=612x612&w=0&k=20&c=TpAxEQOH9ygh35hWG9p3JbkzaNRWq60NyvKMu4iNuv4=",
+  },
+  {
+    image:
+      "https://media.istockphoto.com/id/511072562/photo/trade-networking.jpg?s=612x612&w=0&k=20&c=x8_CXxY1T_iqlprf1dk2qGW7NavX0Aq2MW10JuWzh-M=",
+  },
+  {
+    image:
+      "https://media.istockphoto.com/id/1463013729/photo/online-registration-form-for-modish-form-filling.jpg?s=612x612&w=0&k=20&c=Fnx06haU4IHYLcRpy9Po_TBknvBqVjicGuUWkGu8e6Y=",
+  },
+  {
+    image:
+      "https://media.istockphoto.com/id/1302070959/photo/portrait-of-young-women-studying-in-library-stock-photo.jpg?s=612x612&w=0&k=20&c=3xAWUoBxbo0rNRZ1L9IOmeC19hPd5bquUVw9Dr6kW3E=",
+  },
+  {
+    image:
+      "https://media.istockphoto.com/id/1420975075/photo/indian-business-man-remote-working-on-laptop-computer-sitting-at-home-office.jpg?s=612x612&w=0&k=20&c=c0DQ2NVujgGKapydV33ki369o9jgywUPcOQcAOQMoAw=",
+  },
+  {
+    image:
+      "https://media.istockphoto.com/id/1262283526/photo/indian-girl-student-wear-headphones-learning-online-watching-webinar-class-looking-at-laptop.jpg?s=612x612&w=0&k=20&c=U53dUb_GsOqsngIbknNaIQhW32dGbTIbCDSAIKV2nHM=",
+  },
+  {
+    image:
+      "https://media.istockphoto.com/id/1225585631/photo/5g-communications-tower-with-man-using-mobile-phone.jpg?s=612x612&w=0&k=20&c=3guCR-COMpYY2OMSYMch__63i2ywVH2YNa-Bs-pAhNQ=",
+  },
+  {
+    image:
+      "https://media.istockphoto.com/id/1461630610/photo/group-of-happy-students-checking-results-on-laptop-while-sitting-on-college-campus-concept-of.jpg?s=612x612&w=0&k=20&c=cFO_ROJ_yxhk7lv8Xwm13iaIUOnL_nJMO1EU2lKhPVQ=",
+  },
+  {
+    image:
+      "https://media.istockphoto.com/id/1881373307/photo/woman-sitting-on-the-airport-floor-typing-on-her-phone-and-laptop.jpg?s=612x612&w=0&k=20&c=fs0t7r0HMkutVVkEaCF2axsSvPmFZhJ3NLtyOpBslac=",
+  },
+  {
+    image:
+      "https://media.istockphoto.com/id/844488274/photo/website-front-end-designer-reviewing-wireframe-layout-mockup-ar-screen.jpg?s=612x612&w=0&k=20&c=V8pvSN_OrP0H48TKaaD55rYm408L_YiNvf6-PHROb0Q=",
+  },
+  {
+    image:
+      "https://media.istockphoto.com/id/1887419877/photo/young-adult-female-smiles-and-raises-her-hand-to-speak.jpg?s=612x612&w=0&k=20&c=VPr6I-Etn5OrG-akiQm9hTRN8t-7H9AhbhU7QOL85GY=",
+  },
+  {
+    image:
+      "https://media.istockphoto.com/id/1148232185/photo/teacher-using-tablet-computer-in-elementary-school-lesson.jpg?s=612x612&w=0&k=20&c=bKDsOP32ivlgkwiSXai1SqAb5P-IpenvfLLlFBC-WQg=",
+  },
+  {
+    image:
+      "https://media.istockphoto.com/id/1366226145/photo/woman-sitting-at-coffee-shop-writing-notes-on-notebook-while-using-laptop.jpg?s=612x612&w=0&k=20&c=msxHZJtZA3ob3YFef34zJEQYorDz-a8Lgfoo-aazi9Y=",
+  },
+  {
+    image:
+      "https://media.istockphoto.com/id/1280547073/photo/business-video-call-meeting-on-laptop-at-home.jpg?s=612x612&w=0&k=20&c=jslE4n1KsgtUAQh8wdNwWJB-1b1lG110SwJP_m3TvTI=",
+  },
+  {
+    image:
+      "https://media.istockphoto.com/id/1338845337/photo/young-student-stock-photo.jpg?s=612x612&w=0&k=20&c=xeBTnaDi62jhveqBSHxFFflbE6AbbZ1SpEs3ARo3gms=",
+  },
+  {
+    image:
+      "https://media.istockphoto.com/id/1325153946/photo/portrait-of-a-young-men-university-student-using-laptop-and-studying-at-home-stock-photo.jpg?s=1024x1024&w=is&k=20&c=8MIN3vzgWskU5xdNLdM1p6LM-tSgPsRcoWxCT9kgNDY=",
+  },
+];
+
+const gallery = document.getElementById("imageGallery");
+
+// Loop through the image data and create image elements
+imageData.forEach((data) => {
+  const img = document.createElement("img");
+  img.src = data.image;
+  gallery.appendChild(img);
+});
